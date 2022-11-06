@@ -1,0 +1,100 @@
+. {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  min-height: 50vh;
+  
+}
+body{
+  background-image: url(https://img.freepik.com/free-vector/desert-landscape-video-conferencing_23-2148641370.jpg?w=2000);
+background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.navel {
+  background-color: brown;
+  font-weight: Bold;
+  width: 100%;
+  height: 30px;
+  top:0;
+  overflow: hidden;
+  text-decoration: none;
+}
+div.navella {
+  background: transparent;
+  font-weight: Bold;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+li{
+  display:block;
+  float: left;
+  
+}
+.active{
+  color:green;
+}
+nav a {
+  margin: 16px;
+}
+
+img {
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  margin:0px auto;
+  margin-top: 50px
+}
+ p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  
+}
+ 
+
+.pagination{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap: 0.5px;
+  background-color:pink;
+}
+
+.pagination .page-num {
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 1px;
+  font-weight: 200;
+  
+}
+
+.pagination .page-num:hover{
+  background-color: purple;
+  color: white;
+}
+
+.pagination .active{
+  background-color: yellow;
+}
+
+.load{
+  justify-content: center;
+  display: flex;
+  margin-left: 50%;
+  margin-top: 30%;
+}
+
+
